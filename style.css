@@ -21,6 +21,7 @@ a:hover {
 
 img {
     max-width: 100%;
+    aspect-ratio: attr(width) / attr(height);
 }
 
 #page-loading-blocs-notifaction {
