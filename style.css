@@ -664,6 +664,10 @@ a {
 .btn-d:focus {
     color: #FFF;
     background: #d24300;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
