@@ -465,13 +465,6 @@ nav .caret {
     margin: 0 0 5px 5px;
 }
 
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
-}
-
 button {
     outline: none!important;
 }
@@ -528,7 +521,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -664,7 +656,14 @@ label,
 a {
     font-family: "sans";
     font-weight: 700;
-    color: #575757!important;
+    color: #575757;
+}
+
+.btn-d,
+.btn-d:hover,
+.btn-d:focus {
+    color: #FFF;
+    background: #d24300;
 }
 
 .container {
